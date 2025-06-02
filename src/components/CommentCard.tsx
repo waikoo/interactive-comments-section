@@ -69,7 +69,7 @@ export default function CommentCard({ comment, setComments, comments, currentUse
       return
     }
 
-    const newReplyObj: CommentWithReplyingTo = {
+    const newReplyObj: Comment = {
       id: uuidv4(),
       content: newReply,
       createdAt: 'today',
