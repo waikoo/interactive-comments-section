@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-p-white: hsl(0, 100%, 100%);
+  --color-p-grey-800: hsl(212, 24%, 26%);
+  --color-p-grey-500: hsl(211, 10%, 45%);
+  --color-p-grey-100: hsl(223, 19%, 93%);
+  --color-p-grey-50: hsl(228, 33%, 97%);
+  --color-p-purple-600: hsl(238, 40%, 52%);
+  --color-p-purple-200: hsl(239, 57%, 85%);
+  --color-p-pink-400: hsl(358, 79%, 66%);
+  --color-p-pink-200: hsl(357, 100%, 86%);
+  --font-rubik: 'Rubik', sans-serif;
+}
