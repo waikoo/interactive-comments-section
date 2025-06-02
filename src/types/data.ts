@@ -4,11 +4,8 @@ export interface Comment {
   createdAt: string
   score: number
   user: User
-  replies: CommentWithReplyingTo[] | []
-}
-
-export interface CommentWithReplyingTo extends Comment {
-  replyingTo: string
+  replies: Comment[]
+  replyingTo?: string
 }
 
 export interface Comments {

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import type { Comment, Comments, CommentWithReplyingTo, User } from "../types/data"
+import type { Comment, Comments, User } from "../types/data"
 import { v4 as uuidv4 } from 'uuid'
 import Score from "./Score"
 import Options from "./Options"
